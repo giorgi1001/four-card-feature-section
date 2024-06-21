@@ -3,9 +3,16 @@ main {
   display: flex;
   flex-direction: column;
   gap: 2.5rem;
+  align-items: center;
 }
 .couple-container {
   display: flex;
   flex-direction: column;
   gap: 2.5rem;
+}
+
+@media only screen and (min-width: 999px) {
+  main {
+    flex-direction: row;
+  }
 }

@@ -1,7 +1,9 @@
 section {
-  width: 31.1rem;
   color: #4d4f62;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.3rem;
 }
 
 h1 {
@@ -13,12 +15,20 @@ h1 {
 h1 span {
   font-weight: 300;
   display: block;
+  margin-bottom: 0.1rem;
 }
 .description {
+  width: 32ch;
   text-align: center;
-  font-size: 15px;
+  font-size: 1.5rem;
   font-weight: 400;
-  line-height: 25px;
-  letter-spacing: 0.104px;
+  line-height: 2.5rem;
+  letter-spacing: 0.0104rem;
   opacity: 0.5;
+}
+
+@media only screen and (min-width: 999px) {
+  .description {
+    width: 59ch;
+  }
 }
