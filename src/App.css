@@ -1,1 +1,11 @@
-
+main {
+  margin: 7.8rem 0 7.8rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+.couple-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
