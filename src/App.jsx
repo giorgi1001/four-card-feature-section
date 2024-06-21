@@ -1,7 +1,12 @@
 import "./App.css";
+import Starter from "./components/starter/Starter";
 
 function App() {
-  return <></>;
+  return (
+    <>
+      <Starter />
+    </>
+  );
 }
 
 export default App;
